@@ -9,33 +9,7 @@ import { PiGreaterThan } from "react-icons/pi";
 function DropDown({isOpen,handleDropdown,setOpen,name,items,click}){
      
 
-    // const  click=useRef(null);
-
-
-    // useEffect(()=>{
-    // const handleOutside=(event)=>{
-    //       if( click.current && !click.current.contains(event.target)){
-
-    //         setOpen(null);
-    //    }
-
-    // }
-    
-    // document.addEventListener("click",handleOutside);
-
-    // return ()=>{
-    //     document.removeEventListener("click",handleOutside);
-
-    // }
-
-
-    // },[])
-
-
-
-
-
-    return <> 
+return <> 
     <div  className="dropdown1 relative group">
                              
          <div onClick={()=>{handleDropdown(name)}}   className=" flex   items-center gap-2 justify-center "> {name} <LuChevronDown className="size-5 translate-y-[2px] text-gray-500" /></div>

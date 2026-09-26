@@ -1,10 +1,10 @@
 
 import {useState,useEffect,useRef,useMemo} from "react";
 import {Link} from "react-router-dom";
-import DropDown from "./Navbar/DropDown";
+import DropDown from "./DropDown";
 import { CiUser } from "react-icons/ci";
 
-import dropdownData from "./Navbar/dropdownData";
+import dropdownData from "./dropdownData";
 
 import { CiDark } from "react-icons/ci";
 
@@ -42,7 +42,7 @@ function Navbar(){
 
 
     return <>
-    <div className="main bg-blue-300 flex justify-center py-8">
+
     <div className="Navbar w-220 py-3 px-6 bg-black rounded-[50px] flex items-center justify-between">
         <div className="Logo text-white text-[25px] font-[700] flex gap-2">
 
@@ -73,7 +73,7 @@ function Navbar(){
         </div>
 
     </div>
-</div>
+
 
 
     </>
